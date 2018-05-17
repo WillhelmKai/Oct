@@ -45,8 +45,7 @@
             // skinEngine1
             // 
             this.skinEngine1.SerialNumber = "";
-            this.skinEngine1.SkinFile = "C:\\Users\\Stonylix\\Desktop\\大三（下）\\Computer_Graphics\\IrisSkin2sskpages\\皮肤控件\\皮肤\\MacOS" +
-    "\\MacOS.ssk";
+            this.skinEngine1.SkinFile = null;
             this.skinEngine1.SkinStreamMain = ((System.IO.Stream)(resources.GetObject("skinEngine1.SkinStreamMain")));
             // 
             // skinLine1
@@ -54,20 +53,20 @@
             this.skinLine1.BackColor = System.Drawing.Color.Transparent;
             this.skinLine1.LineColor = System.Drawing.Color.Black;
             this.skinLine1.LineHeight = 1;
-            this.skinLine1.Location = new System.Drawing.Point(50, 86);
-            this.skinLine1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.skinLine1.Location = new System.Drawing.Point(56, 103);
+            this.skinLine1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.skinLine1.Name = "skinLine1";
-            this.skinLine1.Size = new System.Drawing.Size(480, 31);
+            this.skinLine1.Size = new System.Drawing.Size(540, 37);
             this.skinLine1.TabIndex = 5;
             this.skinLine1.Text = "skinLine1";
             // 
             // skinRollingBar1
             // 
-            this.skinRollingBar1.Location = new System.Drawing.Point(-11, 74);
-            this.skinRollingBar1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.skinRollingBar1.Location = new System.Drawing.Point(-12, 89);
+            this.skinRollingBar1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.skinRollingBar1.Name = "skinRollingBar1";
             this.skinRollingBar1.Radius2 = 24;
-            this.skinRollingBar1.Size = new System.Drawing.Size(75, 23);
+            this.skinRollingBar1.Size = new System.Drawing.Size(84, 28);
             this.skinRollingBar1.TabIndex = 6;
             this.skinRollingBar1.TabStop = false;
             skinRollingBarThemeBase1.BackColor = System.Drawing.Color.Transparent;
@@ -85,9 +84,9 @@
             this.skinLabel1.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel1.BorderColor = System.Drawing.Color.White;
             this.skinLabel1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.skinLabel1.Location = new System.Drawing.Point(55, 35);
+            this.skinLabel1.Location = new System.Drawing.Point(62, 42);
             this.skinLabel1.Name = "skinLabel1";
-            this.skinLabel1.Size = new System.Drawing.Size(124, 27);
+            this.skinLabel1.Size = new System.Drawing.Size(153, 31);
             this.skinLabel1.TabIndex = 8;
             this.skinLabel1.Text = "Hi! Teacher!";
             this.skinLabel1.Click += new System.EventHandler(this.skinLabel1_Click);
@@ -95,10 +94,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(400, 26);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(450, 31);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 53);
+            this.button1.Size = new System.Drawing.Size(146, 64);
             this.button1.TabIndex = 9;
             this.button1.Text = "Logout";
             this.button1.UseVisualStyleBackColor = true;
@@ -107,10 +106,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button2.Location = new System.Drawing.Point(74, 128);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Location = new System.Drawing.Point(83, 154);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(143, 71);
+            this.button2.Size = new System.Drawing.Size(161, 85);
             this.button2.TabIndex = 10;
             this.button2.Text = "Student";
             this.button2.UseVisualStyleBackColor = true;
@@ -119,10 +118,10 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button3.Location = new System.Drawing.Point(373, 128);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button3.Location = new System.Drawing.Point(420, 154);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(144, 71);
+            this.button3.Size = new System.Drawing.Size(162, 85);
             this.button3.TabIndex = 11;
             this.button3.Text = "Rubric";
             this.button3.UseVisualStyleBackColor = true;
@@ -131,21 +130,22 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button4.Location = new System.Drawing.Point(223, 236);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button4.Location = new System.Drawing.Point(251, 283);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(143, 71);
+            this.button4.Size = new System.Drawing.Size(161, 85);
             this.button4.TabIndex = 12;
             this.button4.Text = "Evaluate";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button5.Location = new System.Drawing.Point(74, 338);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button5.Location = new System.Drawing.Point(83, 406);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(143, 71);
+            this.button5.Size = new System.Drawing.Size(161, 85);
             this.button5.TabIndex = 13;
             this.button5.Text = "Course";
             this.button5.UseVisualStyleBackColor = true;
@@ -154,10 +154,10 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button6.Location = new System.Drawing.Point(373, 338);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button6.Location = new System.Drawing.Point(420, 406);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(143, 71);
+            this.button6.Size = new System.Drawing.Size(161, 85);
             this.button6.TabIndex = 14;
             this.button6.Text = "Final\r\nGrade";
             this.button6.UseVisualStyleBackColor = true;
@@ -165,9 +165,9 @@
             // 
             // Home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(564, 473);
+            this.ClientSize = new System.Drawing.Size(634, 568);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -179,7 +179,7 @@
             this.Controls.Add(this.skinLine1);
             this.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.MaximizeBox = false;
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

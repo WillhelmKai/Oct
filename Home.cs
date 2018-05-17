@@ -96,5 +96,12 @@ namespace WindowsFormsApp6
             this.Hide();
             form1.ShowDialog();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //Evaluate form8 = new Evaluate(); 
+            this.Hide();
+
+        }
     }
 }
